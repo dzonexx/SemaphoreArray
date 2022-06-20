@@ -1,0 +1,16 @@
+Projekat se pokrece tako sto najpre pokrenemo semafor2.ino program. 
+
+Nakon toga se u terminalu pokrecu sledece komande :
+./waf configure
+./waf build run --app=main
+
+Nakon toga unosimo LED0 - LED5, u zavisnosti od toga koji semafor zelimo da sija prvi.
+
+Nakon toga mozemo da koristimo switch tastere (1 - 6), pri cemu se tasteri 1 3 i 5 koriste za
+shiftovanje semafora koji svetli u levo, a tasteri 2 4 i 6 za shiftovanje semafora koji svetli
+u desno, pri cemu ce se pri svakom pritisku tastera u terminalu ispisati koji taster je trenutno
+pritisnut.
+
+Video prezentacija projekta se nalazi na sledecem linku :
+https://youtu.be/Ic-zFlsqeVs
+
